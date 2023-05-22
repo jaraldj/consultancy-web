@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/tailwind.css" />
+  </head>
+  <body>
+    <div>
+      <!-- header starts here -->
+      <header
+        class="bg-gray-500 opacity-75 py-5 fixed w-full z-10"
+        id="scrollDiv"
+      >
+        <nav class="flex justify-between px-4 md:px-36">
+          <div class="justify-start font-extrabold text-2xl">
+            <a
+              class="bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500"
+              >Comming Soon</a
+            >
+          </div>
+          <div class="justify-end hidden md:block">
+            <ul class="flex space-x-12 text-[#D9D9D9] text-base">
+              <li>
+                <a href="#home">Home</a>
+              </li>
+              <li>
+                <a href="#companyLi">Company</a>
+              </li>
+              <li>
+                <a href="#services">Serices</a>
+              </li>
+              <li>
+                <a href="#contactUs">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+      <!-- header ends here -->
+
+      <div class="section">
+        <!-- banner starts here -->
+        <div
+          class="bg-cover bg-center bg-[url('https://images.unsplash.com/photo-1553877522-43269d4ea984?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80')] min-h-screen relative"
+          id="home"
+        >
+          <div class="contentSection pt-14 lg:pt-28 text-center px-4 lg:px-36">
+            <div>
+              <h2
+                class="text-3xl md:text-5xl text-[#115B66] font-bold py-10 md:py-12"
+              >
+                Find Your Dream Job
+              </h2>
+              <p class="text-lg md:text-xl text-[#F8F1F1] pb-10 md:pb-20">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Aspernatur error eveniet laborum suscipit cum, non debitis
+                repellendus dolorem. Sit voluptatibus velit delectus, est quae
+                tempore doloremque magnam id iure nam ipsum! Omnis ducimus quos
+                itaque dolores aspernatur porro amet obcaecati, labore eos
+                doloremque veritatis suscipit dolore voluptates. Quo, cupiditate
+                fugiat?
+              </p>
+              <a
+                class="px-6 py-3 md:px-8 md:py-4 bg-[#A78613] text-white rounded-md"
+                >Join Now</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <!-- banner ends here -->
+
+        <!-- company list starts -->
+
+        <div class="companyList min-h-screen" id="companyLi">
+          <h2 class="text-center text-3xl md:text-5xl font-bold pt-6 md:pt-11">
+            Top companies under our consultancy
+          </h2>
+          <div class="flex justify-center">
+            <div class="card mt-10 md:mt-14 w-11/12 md:w-4/5">
+              <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-5">
+                <div class="h-full flex flex-col rounded-lg p-6 shadow-md">
+                  <img class="w-full" src="./images/infosys.png" />
+                  <h3
+                    class="text-3xl md:text-4xl text-[#115B66] pt-5 font-semibold pb-3 md:pb-5"
+                  >
+                    Infosys
+                  </h3>
+                  <p class="text-lg md:text-xl text-[#808080]">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Eligendi, rem!
+                  </p>
+                  <a class="text-[#1E31D2] text-xs mt-auto">Read more...</a>
+                </div>
+                <div class="shadow-md flex flex-col p-6">
+                  <img src="./images/wipro.png" />
+                  <h3
+                    class="text-3xl md:text-4xl text-[#115B66] pt-5 font-semibold pb-3 md:pb-5"
+                  >
+                    Wipro
+                  </h3>
+                  <p class="text-lg md:text-xl text-[#808080]">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Eligendi, rem!
+                  </p>
+                  <a class="text-[#1E31D2] text-xs mt-auto">Read more...</a>
+                </div>
+                <div class="shadow-md flex flex-col p-6">
+                  <img src="./images/ibm.png" />
+                  <h3
+                    class="text-3xl md:text-4xl text-[#115B66] pt-5 font-semibold pb-3 md:pb-5"
+                  >
+                    IBM
+                  </h3>
+                  <p class="text-lg md:text-xl text-[#808080]">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Eligendi, rem!
+                  </p>
+                  <a class="text-[#1E31D2] text-xs mt-auto">Read more...</a>
+                </div>
+                <div class="shadow-md flex flex-col p-6">
+                  <img src="./images/amazon.png" />
+                  <h3
+                    class="text-3xl md:text-4xl text-[#115B66] pt-5 font-semibold pb-3 md:pb-5"
+                  >
+                    Amazon
+                  </h3>
+                  <p class="text-lg md:text-xl text-[#808080]">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Eligendi, rem!
+                  </p>
+                  <a class="text-[#1E31D2] text-xs mt-auto pt-1.5"
+                    >Read more...</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- company list ends here -->
+
+        <!-- service section starts -->
+
+        <div
+          class="serviceSection mt-10 bg-[#5C469C] min-h-screen"
+          id="services"
+        >
+          <h2
+            class="text-center text-3xl md:text-5xl text-white font-bold pt-6 md:pt-11"
+          >
+            Our Services
+          </h2>
+          <div class="grid lg:grid-cols-2 mt-10 px-4">
+            <div class="grid md:grid-cols-2 md:pl-36 gap-8">
+              <div
+                class="flex flex-col items-center p-7 bg-[#F7F2F2] rounded-xl"
+              >
+                <img src="./images/clarity_user-solid.png" />
+                <h3 class="text-xl md:text-2xl p-4">User Interface</h3>
+                <p class="text-base md:text-lg text-center">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Pariatur, distinctio.
+                </p>
+              </div>
+              <div
+                class="flex flex-col items-center p-7 bg-[#F7F2F2] rounded-xl"
+              >
+                <img src="./images/vaadin_office.png" />
+                <h3 class="text-xl md:text-2xl p-4">User Interface</h3>
+                <p class="text-base md:text-lg text-center">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Pariatur, distinctio.
+                </p>
+              </div>
+              <div
+                class="flex flex-col items-center p-7 bg-[#F7F2F2] rounded-xl"
+              >
+                <img src="./images/zondicons_photo.png" />
+                <h3 class="text-xl md:text-2xl p-4">User Interface</h3>
+                <p class="text-base md:text-lg text-center">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Pariatur, distinctio.
+                </p>
+              </div>
+              <div
+                class="flex flex-col items-center p-7 bg-[#F7F2F2] rounded-xl"
+              >
+                <img src="./images/uil_notes.png" />
+                <h3 class="text-xl md:text-2xl p-4">User Interface</h3>
+                <p class="text-base md:text-lg text-center">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Pariatur, distinctio.
+                </p>
+              </div>
+            </div>
+            <div class="rightSection flex flex-row items-center justify-center">
+              <div class="p-6 md:p-36">
+                <h2 class="text-2xl md:text-4xl text-white">We provide</h2>
+                <p
+                  class="text-lg md:text-xl font-semibold text-white pt-4 md:pt-7"
+                >
+                  Lorem ipsum dolor sit amet. Et ipsum fugit non rerum libero ab
+                  consequuntur quisquam est accusantium autem. Aut laborum nisi
+                  aut pariatur sunt eum quod delectus.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- service section ends -->
+
+        <!-- contact section starts here -->
+
+        <div
+          class="contactSection min-h-screen bg-[#095B61] transform skew-y[-45deg]"
+          id="contactUs"
+        >
+          <h2
+            class="text-center text-3xl md:text-5xl font-bold pt-6 md:pt-11 text-white"
+          >
+            Contact Us
+          </h2>
+          <div class="grid lg:grid-cols-2 mt-12">
+            <form class="max-w-5xl mx-auto pb-5">
+              <div class="mb-8 md:mb-12">
+                <input
+                  class="appearance-none border border-gray-300 rounded w-full py-3 md:py-4 pl-3 pr-24 md:pr-60 text-gray-700 leading-tight focus:outline-none focus:border-indigo-500"
+                  id="name"
+                  type="text"
+                  placeholder="Full Name"
+                />
+              </div>
+              <div class="mb-8 md:mb-12">
+                <input
+                  class="appearance-none border border-gray-300 rounded w-full py-3 md:py-4 pl-3 pr-8 md:pr-60 text-gray-700 leading-tight focus:outline-none focus:border-indigo-500"
+                  id="contactNum"
+                  type="tel"
+                  placeholder="Contact No"
+                />
+              </div>
+              <div class="mb-8 md:mb-12">
+                <input
+                  class="appearance-none border border-gray-300 rounded w-full py-3 md:py-4 pl-3 pr-8 md:pr-60 text-gray-700 leading-tight focus:outline-none focus:border-indigo-500"
+                  id="email"
+                  type="email"
+                  placeholder="E-mail Id"
+                />
+              </div>
+              <div class="mb-12 md:mb-16">
+                <textarea
+                  class="appearance-none border border-gray-300 rounded w-full py-3 md:py-4 pl-3 pr-8 md:pr-60 text-gray-700 leading-tight focus:outline-none focus:border-indigo-500"
+                  id="message"
+                  rows="5"
+                  placeholder="Message"
+                ></textarea>
+              </div>
+              <div>
+                <button
+                  class="bg-[#A71337] text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+                  type="submit"
+                >
+                  Submit
+                </button>
+              </div>
+            </form>
+
+            <div class="px-10">
+              <div class="w-4/5">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63188.98981047547!2d77.37383236723123!3d8.171303015968611!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b04f0dfc0ddc7b7%3A0x809a9e32a95d3ed1!2sNagercoil%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1684683399558!5m2!1sen!2sin"
+                  height="200"
+                  style="border: 0"
+                  allowfullscreen=""
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"
+                  class="min-w-full"
+                ></iframe>
+              </div>
+              <div class="address mt-10">
+                <h3 class="text-3xl">Address</h3>
+                <div class="mt-8 md:mt-10">
+                  <p class="text-lg md:text-xl text-[#0C134F]">
+                    1367 Pennsylvania Avenue,<br />
+                    Eden Prairie, Minnesota<br />
+                    Phone : 732-385-7455 <br />Zip code : 55344
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- contact section ends here -->
+      </div>
+
+      <footer class="p-5 bg-[#21284B]">
+        <p class="pl-36 text-white">
+          Copyright &copy; 2023 marketing.com All rights reserved.
+        </p>
+      </footer>
+    </div>
+
+    <script>
+      document.cookie = "cookieName=value; SameSite=None; Secure";
+    </script>
+  </body>
+</html>
